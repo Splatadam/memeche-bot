@@ -11,7 +11,7 @@ Client.once('ready', () => {
 Client.login(token);
 
 module.exports = (Client,message) => {
-  if (message.content === prefix + 'kick') {
+  if (message.content == prefix + 'kick') {
     return kick(message);
   }
 }
