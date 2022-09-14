@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const kick = require('../commands/kick');
 const Client new Discord.Client();
-const token = 'MTAxODc4ODM0MzExMjl5MDM1Nw.GB6fwy.EzqHDmROf-agERf1ifPqc43lgkkx66DMbYLJdA';
+const token = 'MTAxODc4ODM0MzExMjI5MDM1Nw.GS55L3.P7llHhIMQviek34cfau58CN0A0nWP-tULW5OF0';
 const prefix = '/';
 
 Client.once('ready', () => {
